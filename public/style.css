@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    color: #000;
+}
+a{
+    text-align: center;
+    color: rgba(244, 6, 6, 0.542);
+}
+div{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+button.btn{
+    background-color: white;
+}
+footer{
+    padding-bottom: 0%;
+}

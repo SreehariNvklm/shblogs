@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head.ejs')%>
+  <body>
+    
+    <%- include('./partials/nav.ejs') %>
+
+    <center>
+      <form action="/blogs" method="post">
+        <div class="form-group">
+          <label for="title">Blog Title</label>
+          <input type="text" class="form-control" required name="title" id="title" aria-describedby="titleHelp" placeholder="Enter title">
+        </div>
+        <div class="form-group">
+          <label for="snippet">Snippet</label>
+          <input type="text" class="form-control" required name="snippet" id="snippet" placeholder="Enter Snippet">
+        </div>
+        <div class="form-group">
+          <label for="body">Body</label>
+          <input type="text" class="form-control" required name="body" id="body" placeholder="Enter Body">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </center>    
+    <%- include('./partials/footer.ejs') %>    
+
+  </body>
+</html>
